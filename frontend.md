@@ -409,11 +409,9 @@ Wrapper;
 
 ## export and import
 
-1. Do not use `export` to declare interfaces, usually you can use it directly in the component without the `import` interface
-
-2. use `export default` to export the components you need directly
-
-3. Importing components or dependencies using `import` only
+* Use `export` instead of `export default`.
+* No need to use `export { ... }`
+* No need to define `index.ts` to organize import and export
 
 ## Storybook
 
